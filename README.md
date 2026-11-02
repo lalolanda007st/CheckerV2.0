@@ -1,6 +1,7 @@
-# Live_cc_checker
-This script will check live cc and Grab proxy and check proxy if its working or not
-```
+puedes traducir este readme Live_cc_checker
+
+Este script comprobará cc en vivo y Grab proxy y comprobará el proxy si funciona o no
+
 >>>  _      _                             _               _             
 >>> | |    (_)                           | |             | |            
 >>> | |     ___   _____    ___ ___    ___| |__   ___  ___| | _____ _ __ 
@@ -17,11 +18,9 @@ This script will check live cc and Grab proxy and check proxy if its working or 
 >>>                     ./chxd creditC proxy.txt cc.txt >>> {To check credit card is valid or not}
 >>>                     ./chxd creditC proxy.txt cc.txt config.txt >>> {check credit cards using coustm api with common success response}
 >>>                     ./chxd creditC proxy.txt cc.txt config.txt success.txt >>> {check credit cards using coustm api}
-```
 
-> how to use your own api with live cc checker
+    Cómo usar tu propia API con el comprobador de cc en vivo
 
-```
 # grab the request with burp suite which contain your credit card number and replace them with FUZZ_CC 
 # replace month with FUZZ_MN
 # replace year with FUZZ_YR
@@ -32,13 +31,11 @@ This script will check live cc and Grab proxy and check proxy if its working or 
 
 # you also can specify the success response using this command {if any string from success.txt found in response thats  be mean card is valid }
 # ./chxd creditC proxy.txt cc.txt config.txt success.txt
-```
-> it's only for Education Purposes
-> I am not going to be responsible for anything
 
-> if your using linux can run chxd
-> if your using windows run winchxd.exe in cmd ( Dont just double click it run it using cmd )
+    Es solo para fines educativos No voy a ser responsable de nada
 
-> how to use video : https://www.youtube.com/watch?v=g_Hc2kmtatg
+    Si usas linux puedes ejecutar chxd Si usa Windows ejecuta winchxd.exe en cmd (No haga doble clic en ejecutarlo usando cmd )
 
-> join us here: https://discord.gg/gkGA44z
+    Cómo usar el vídeo : https://www.youtube.com/watch? v=g_Hc2kmtatg
+
+    Únete a nosotros aquí: https://discord.gg/gkGA44z
