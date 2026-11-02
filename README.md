@@ -1,7 +1,6 @@
-puedes traducir este readme Live_cc_checker
-
-Este script comprobará cc en vivo y Grab proxy y comprobará el proxy si funciona o no
-
+# Live_cc_checker
+This script will check live cc and Grab proxy and check proxy if its working or not
+```
 >>>  _      _                             _               _             
 >>> | |    (_)                           | |             | |            
 >>> | |     ___   _____    ___ ___    ___| |__   ___  ___| | _____ _ __ 
@@ -10,8 +9,8 @@ Este script comprobará cc en vivo y Grab proxy y comprobará el proxy si funcio
 >>> |______|_| \_/ \___|  \___\___|  \___|_| |_|\___|\___|_|\_\___|_|   
 >>>                                                                                  
 >>>                                               Coded by script1337
->>>                            Github : https://github.com/ScRiPt1337
->>>         
+>>>                           Este era el antigua repo Github : https://github.com/ScRiPt1337
+>>>                           Nuevo repo GitHub: https://github.com/lalolanda007st
 >>>     Examples{
 >>>                     ./chxd checkproxy /path/to/proxylist 100 >>> {Check if proxy is working or not}
 >>>                     ./chxd grabproxy 100 1000 >>> {Grab https proxys}
@@ -19,23 +18,19 @@ Este script comprobará cc en vivo y Grab proxy y comprobará el proxy si funcio
 >>>                     ./chxd creditC proxy.txt cc.txt config.txt >>> {check credit cards using coustm api with common success response}
 >>>                     ./chxd creditC proxy.txt cc.txt config.txt success.txt >>> {check credit cards using coustm api}
 
-    Cómo usar tu propia API con el comprobador de cc en vivo
 
-# grab the request with burp suite which contain your credit card number and replace them with FUZZ_CC 
-# replace month with FUZZ_MN
-# replace year with FUZZ_YR
-# replace cvv with FUZZ_CVV
-# DNT: 1 add this in the end of your header
-# and your can run this command 
-# ./chxd creditC proxy.txt cc.txt config.txt
 
-# you also can specify the success response using this command {if any string from success.txt found in response thats  be mean card is valid }
-# ./chxd creditC proxy.txt cc.txt config.txt success.txt
 
-    Es solo para fines educativos No voy a ser responsable de nada
+cómo usar tu propia API con el comprobador de cc en vivo ``` # Coge la solicitud con la suite de eructos que contiene tu número
+de tarjeta de crédito y retitúyela por FUZZ_CC # Sustituye mes por FUZZ_MN # Sustituye el año por FUZZ_YR # Sustituye CVV por
+FUZZ_CVV # DNT: 1 añade esto al final de tu cabecera # Y puedes ejecutar este comando #./chxd creditC proxy.txt cc.txt config.txt
+# también puedes especificar la respuesta de éxito usando este comando {si alguna cadena de success.txt se encuentra en respuesta
+que sea la carta mean es válida } #./chxd creditC proxy.txt cc.txt config.txt success.txt ``` > es solo con fines educativos > no
+voy a hacerme responsable de nada > si usas Linux puedes ejecutar CHXD > si usas Windows, ejecuta winchxd.exe en cmd (No hagas
+doble clic en él, ejecuta usando cmd) > cómo usar el vídeo: https://www.youtube.com/watch?v=g_Hc2kmtatg > únete aquí: https://
+discord.gg/gkGA44z [stone@archlinux Comprobador de cc en vivo] $
 
     Si usas linux puedes ejecutar chxd Si usa Windows ejecuta winchxd.exe en cmd (No haga doble clic en ejecutarlo usando cmd )
 
-    Cómo usar el vídeo : https://www.youtube.com/watch? v=g_Hc2kmtatg
 
-    Únete a nosotros aquí: https://discord.gg/gkGA44z
+  
